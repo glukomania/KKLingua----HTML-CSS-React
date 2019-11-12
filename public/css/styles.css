@@ -44,7 +44,7 @@ color: #f2f2f2;
     
 
 .picture{
-    background-image: url("people1.png");
+    background-image: url("../img/people1.png");
     background-size: cover;
     height: 300px;
     width:101%;
@@ -77,7 +77,7 @@ color: #f2f2f2;
 /* ABOUT WEB */
 
 .about{
-    background-image: url("paper.jpg");
+    background-image: url("../img/paper.jpg");
     padding-top: 40px;
     padding-left: 50px;
     padding-right: 80px;
@@ -170,7 +170,7 @@ hr {
 /* WHY WEB */
 .why {
     margin-top:30px;
-    background-image: url("kofe.png");
+    background-image: url("../img/kofe.png");
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
@@ -207,7 +207,7 @@ margin-bottom:50px;
 }
 
 .commonPhoto{
-    background-image: url("commonPhoto.png");
+    background-image: url("../img/commonPhoto.png");
     background-size: cover;
     height: 500px;
     background-repeat: no-repeat;
