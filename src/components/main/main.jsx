@@ -4,7 +4,7 @@ import Welcome from '../welcome/welcome';
 import About from '../about/about';
 import Offers from '../offers/offers';
 import Why from '../why/why';
-import Carousel from '../carousel/carousel';
+import References from '../references/references';
 import Order from '../order/order';
 import Footer from '../footer/footer';
 
@@ -40,7 +40,7 @@ class Main extends React.PureComponent {
           <img className="logoBottom" src="img/logo1.png" />
       </div> 
         
-      <Carousel />
+      <References />
 
       <Order />  
 

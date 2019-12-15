@@ -3,7 +3,7 @@ const Order = () => {
   <a name="objednat"></a> 
       <a href="mailto:info@kklingua.cz">
         <button type="button" className="buttonOrder btn">
-          <i className="far fa-check-circle">
+          <i className="fa fa-check-circle">
           </i>
           &nbsp;&nbsp;&nbsp;Objednat kurzu
         </button>
