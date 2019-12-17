@@ -1,23 +1,5 @@
 import {feedbacks} from '../../data/feedbacks';
-import { createRef } from 'react';
  
-// const Dots = (props) => {
-
-//   const generateDots = () => {
-//     let dots = ``;
-//     for (let i = 0; i < 7; i++) { 
-//       if (i === props.activeNumber) {
-//         dots = dots + `<i className="fa fa-circle fa-active"></i>`;
-//       } else {
-//         dots = dots + `<i className="fa fa-circle"></i>`;
-//       }
-//     }
-//     return dots;
-//   }
-//   return <div className="dots">
-//     {generateDots()} 
-// </div>
-// };
 
 class References extends React.PureComponent {
   constructor() {
@@ -64,15 +46,6 @@ class References extends React.PureComponent {
     }
   }
 
-  // setDot(number) {
-  //   if (i === props.activeNumber) {
-  //     dots = dots + `<i className="fa fa-circle fa-active"></i>`;
-  //   } else {
-  //     dots = dots + `<i className="fa fa-circle"></i>`;
-  //   } 
-
-  // }
-
   render() {
     console.log(`render`);
     let dots = [``, ``, ``, ``, ``, ``, ``, ``]
@@ -90,17 +63,17 @@ class References extends React.PureComponent {
             <div className="center--wrapper">
               <div className="text--wrapper">
                 <div className="quote__icon">
-                  <i className="fa fa-2x fa-quote-left"></i>
+                  <i className="fa fa-quote-left"></i>
                 </div>
                 <div className="reference--text" ref={this.feedbackTextRef}>{this.state.text}</div>
                 <div className="quote__icon">
-                  <i className="fa fa-2x fa-quote-right"></i>
+                  <i className="fa fa-quote-right"></i>
                 </div>
               </div>
               
               <div className="reference-author" ref={this.feedbackAuthorRef}>{feedbacks[0].author}</div>
               <div className="dots">
-                {dots.map((item, index) => index === this.state.index ? <i className="fa fa-circle fa-active"></i> : <i className="fa fa-circle"></i>)} 
+                {dots.map((item, index) => index === this.state.index ? <i key={index} className="fa fa-circle fa-active"></i> : <i key={index} className="fa fa-circle"></i>)} 
               </div>
             </div>
             <div className="array">

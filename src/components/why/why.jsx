@@ -1,42 +1,39 @@
 const Why = () => {
-  return <div className="container-fluid why">
+  return <div className="why">
   <a name="proc"></a>
-  <p className="titleWhy">Proč si vybrat práve nás?</p>
-  <div className="row">
-      <div className="col-md-1"></div>
-             
-      <div className="col-md-2">
+  <p className="titleWhy">Proč si vybrat právě nás?</p>
+  <div className="why-wrapper">
+   
+      <div className="why--colomn why--colomn__left">
           <img className="whyIcon" src="icons/cup.png" />
-          <br /><br />
-          <p className="textWhy"> Vždycky příjemná a take pohodová atmosféra při učení, kvalifikovaní lektoři</p>
+          <br />
+          <p className="textWhy">Příjemná a pohodová atmosféra při učení, profesionalita a kvalita.</p>
       </div>
              
-      <div className="col-md-2">
+      <div className="why--colomn">
           <img className="whyIcon" src="icons/chat.png" />
-          <br /><br />
-          <p className="textWhy"> Interaktivní, názorná výuka, čeština hrou, netradiční výukové metody - rozvoj kreativity a tvořivosti</p>
+          <br />
+          <p className="textWhy"> Interaktivní, názorná výuka, čeština hrou, netradiční výukové metody - rozvoj kreativity a tvořivosti. Individuální přístup.</p>
       </div>
              
-      <div className="col-md-2">
+      <div className="why--colomn">
           <img className="whyIcon" src="icons/book.png" />
-          <br /><br /> 
-          <p className="textWhy"> Důraz na rovnoměrný rozvoj čtení, psaní, poslechu i konverzace v každé vyučovací hodině</p>
+          <br /> 
+          <p className="textWhy"> Důraz na rovnoměrný rozvoj čtení, psaní, poslechu i konverzace v každé vyučovací hodině.</p>
       </div>
              
-      <div className="col-md-2">
+      <div className="why--colomn">
           <img className="whyIcon" src="icons/user.png" />
-          <br /><br />
-          <p className="textWhy"> První lekce zcela zdarma - vstupní test a úvodní konverzace, doporučení ohledně volby vhodného kurzu, individuální přístup</p>
+          <br />
+          <p className="textWhy"> První lekce zcela zdarma - vstupní test a úvodní konverzace, doporučení ohledně volby vhodného kurzu.</p>
       </div>
              
-      <div className="col-md-2">
+      <div className="why--colomn why--colomn__right">
           <img className="whyIcon" src="icons/culture.png" />
-          <br /><br />
-          <p className="textWhy"> Volný vstup na turistické a kulturní aktivity pro studenty skupinových kurzů, neformální prostředí</p>
+          <br />
+          <p className="textWhy"> Specializované lekce: Skype, konverzace, lexikální lekce, příprava na zkoušky, taneční hodiny.</p>
       </div>
-             
-  <div className="col-md-1"></div>
-  </div>
+    </div>
 </div>
 }
 

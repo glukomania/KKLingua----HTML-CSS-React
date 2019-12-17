@@ -1,25 +1,22 @@
 import Menu from '../menu/menu.jsx';
-import Languages from '../languages/languages';
-import Welcome from '../welcome/welcome';
 import About from '../about/about';
 import Offers from '../offers/offers';
 import Why from '../why/why';
 import References from '../references/references';
 import Order from '../order/order';
 import Footer from '../footer/footer';
+import Contacts from '../contacts/contacts';
 
 class Main extends React.PureComponent {
   render() {
     return <section>
       <Menu />
-      <Languages />
+      {/* <Languages /> */}
 
-      <div className="container-fluid picture">
-        <p className="slogan">Czech for foreigners</p>
-        <p className="headoffer">Individual lessons &nbsp; • &nbsp; Group courses &nbsp; • &nbsp;  Corporative trainings</p>
+      <div className="picture">
+        <div className="slogan">Kateřina Kočová</div>
+        <div className="headoffer">Čeština pro cizince v Praze</div>
       </div> 
-    
-      <Welcome />
 
       <About />
 
@@ -27,22 +24,23 @@ class Main extends React.PureComponent {
 
       <Why />
     
-      <div className="container partners">
-        <p className="title">Mezi naše klienty patri firmy jako: </p>
+      <div className="partners">
+        <p className="title">Mezi mé klienty patří firmy jako:</p>
         <img className="imgPartners" src="img/partners.png" />
       </div>
                   
-      <div className="col-md-12 commonPhoto"></div>  
-      <br /><br /><br />
+      <div className="commonPhoto"></div>  
               
-      <div className="container">
-          <hr className="orangeHr" />
+      <div className="logo-wrapper">
           <img className="logoBottom" src="img/logo1.png" />
+          <hr className="orangeHr" />
       </div> 
         
       <References />
 
       <Order />  
+
+      <Contacts />
 
       <Footer />
     </section>

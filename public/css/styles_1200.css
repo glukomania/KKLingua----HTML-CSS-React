@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+
+  /* ABOUT 1200*/
+
+/* CO 1200 */
+
+.co--wrapper {
+   display: flex;
+   padding: 30px;
+}
+.co--picture {
+   width: 50%;
+}
+
+.co--texts {
+   width: 50%;
+}
+
+.co--head {
+   font-size: 1.5em;
+   font-style: bold;
+   color: #ff8400;
+   padding-bottom: 30px;
+}
+
+.co--image {
+   padding-top: 10px;
+   width: 90%;
+}
+
+.left {
+   padding-left: 10%;
+   padding-right: 20px;
+}
+
+.right {
+   padding-right: 50px;
+}
+
+
+/* WHY BIG */
+
+
+/* COMMON */
+
+.commonPhoto{
+   background-image: url("../img/commonPhoto.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 450px;
+   width: 100%;
+}
+
+/* ORDER */
+
+.buttonOrder{
+   width: 600px;
+   height:80px;
+   font-size: 27px !important;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 5px;
+}
+
+.block-contacts {
+   display: flex;
+   padding-top: 20px;
+}
+
+.contacts {
+   padding: 30px 60px 50px 60px;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.map{
+   width:50%;
+   height:400px;
+}
+
+.contacts-text{
+   padding: 0 30px 0 30px;
+   width:50%;
+   height:400px;  
+}
+
+.social_p{
+   font-size: 13px;
+   text-align:center;
+}
+}

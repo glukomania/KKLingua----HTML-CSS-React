@@ -5,7 +5,7 @@ const Order = () => {
         <button type="button" className="buttonOrder btn">
           <i className="fa fa-check-circle">
           </i>
-          &nbsp;&nbsp;&nbsp;Objednat kurzu
+          &nbsp;&nbsp;&nbsp;Objednejte se na 1. lekci ZDARMA
         </button>
       </a>
   </div> 
