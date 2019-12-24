@@ -2,7 +2,7 @@ import {feedbacks} from '../../data/feedbacks';
  
 
 class References extends React.PureComponent {
-  constructor() {
+  constructor(props) {
     super();
     this.fedbacksNumber = feedbacks.length;
     this.state = {
@@ -50,8 +50,9 @@ class References extends React.PureComponent {
     console.log(`render`);
     let dots = [``, ``, ``, ``, ``, ``, ``, ``]
     return <div className="References">
+      <a name="corika"></a>
       <div className="references-wrapper">
-        <div className="title">Reference</div>
+        <div className="title">{this.props.allTexts.references.title}</div>
         <div className="reference--block">
           <div className="reference--block__left">
           </div>

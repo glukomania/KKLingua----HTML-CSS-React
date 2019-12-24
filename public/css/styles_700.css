@@ -21,7 +21,7 @@
 
 
 .picture{
-    height:130px;
+    height:150px;
 }
 
 .slogan{
@@ -64,16 +64,38 @@
   font-size: 1.6em;
 }
 
-/* COMMOM */
+/* COMMON */
 
 .commonPhoto{
   background-image: url("../img/commonPhoto.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 150px;
+  height: 10px;
   width: 100%;
 }
+
+/* ORDER */
+
+.buttonOrder {
+  border: none;
+  padding: 25px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+
+.buttonPosition{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+
+/* CONTACTS */
       
 }
 

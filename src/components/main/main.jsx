@@ -6,45 +6,60 @@ import References from '../references/references';
 import Order from '../order/order';
 import Footer from '../footer/footer';
 import Contacts from '../contacts/contacts';
+import {connect} from 'react-redux';
 
 class Main extends React.PureComponent {
+  constructor(props) {
+    super(props);
+  };
+
   render() {
+    console.log(this.props.lang);
     return <section>
-      <Menu />
+      <Menu allTexts={this.props.allTexts}/>
       {/* <Languages /> */}
 
       <div className="picture">
-        <div className="slogan">Kateřina Kočová</div>
-        <div className="headoffer">Čeština pro cizince v Praze</div>
+        <div className="slogan">{this.props.allTexts.title}</div>
+        <div className="headoffer">{this.props.allTexts.offersTitles}</div>
       </div> 
 
-      <About />
+      <About allTexts={this.props.allTexts}/>
 
-      <Offers />
+      <Offers allTexts={this.props.allTexts}/>
 
-      <Why />
+      <Why allTexts={this.props.allTexts}/>
     
       <div className="partners">
-        <p className="title">Mezi mé klienty patří firmy jako:</p>
+        <p className="title">{this.props.allTexts.partners}</p>
         <img className="imgPartners" src="img/partners.png" />
       </div>
-                  
+                   
       <div className="commonPhoto"></div>  
-              
-      <div className="logo-wrapper">
+             
+       <div className="logo-wrapper">
           <img className="logoBottom" src="img/logo1.png" />
           <hr className="orangeHr" />
       </div> 
         
-      <References />
+      <References allTexts={this.props.allTexts}/>
 
-      <Order />  
+      <Order allTexts={this.props.allTexts}/>  
 
-      <Contacts />
+      <Contacts allTexts={this.props.allTexts}/>
 
-      <Footer />
+      <Footer/> 
     </section>
   }
 };
 
-export default Main;
+const mapStateToDispatch = (state, ownProps) => Object.assign({}, ownProps, {
+  lang: state.lang,
+  allTexts: state.allTexts,
+});
+
+const mapDispatchToProps = {
+
+}
+
+export default connect(mapStateToDispatch, mapDispatchToProps)(Main);

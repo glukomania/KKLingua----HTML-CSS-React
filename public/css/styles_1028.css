@@ -73,7 +73,7 @@
 .textWhy{
    color: #ffffff;
    font-size:14px;
-   margin-top:-20px;
+   margin-top:20px;
 }
 
 
@@ -93,15 +93,25 @@
 
 /* ORDER */
 
-.buttonOrder{
-   width: 500px;
-   height:80px;
-   font-size: 25px !important;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+.buttonOrder {
+   border: none;
+   padding: 25px 40px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
    border-radius: 5px;
+ }
+
+
+.buttonPosition{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 50px 0 50px 0;
 }
+
+/* CONTACTS */
 
 .contacts {
    padding: 30px 30px 50px 30px;
@@ -126,24 +136,6 @@
 }
 
 /* Footer */
-.footer{
-   margin-top:70px;
-   height: 150px;
-   background: #303030;
-}
 
-.fab{
-   color: #bbbbbb;
-}
-
-.socicon{
-   margin-top: 70px;
-   margin-right:15px;
-}
-
-.social_p{
-   font-size: 10px;
-   text-align:center;
-}
 
 }

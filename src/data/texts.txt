@@ -1,0 +1,85 @@
+const allTexts = [
+  {
+    language: `czech`,
+    menu: {about: `O nás`, suggest: `Nabídka služeb`, why: `Proč my?`, feedbacks: `Reference`},
+    title: `Kateřina Kočová`,
+    offersTitles: `Čeština pro cizince v Praze`,
+    about: {
+      header: `Mgr. BcA. Kateřina Kočová`,
+      text: [`Vystudovala jsem na FF UK (obor Učitelství češtiny jako cizího jazyka).`,
+        `Předtím Literární akademii (obor Tvůrčí psaní a publicistika se zaměřením na média).`,
+        `Učila jsem češtinu pro cizince v Centru pro integraci cizinců, v Ústavu jazykové a odborné přípravy v Praze, na FF UK, v organizaci International Young Naturefriends, v jazykové škole Glossa, na Metropolitní univerzitě i na Vysoké škole ekonomické v Praze.`,
+        `Specializuji se na netradiční metody výuky jako je například sugestopedie nebo využití dramatických prvků ve výuce.`,
+        `Ve volném čase ráda tancuji, sportuji a cestuji, věnuji se kultuře a umění.`,
+        `V roce 2014 jsem založila malou jazykovou školu v Praze: KK Lingua. Momentálně učím individuální, skupinové a firemní kurzy, připravuji klienty na certifikované zkoušky z českého jazyka a zabývám se lekcemi konverzace a rozšiřování lexika. Více informací o KK Lingua a aktuálních kurzech najdete na Facebooku.`]
+    },
+    offers: {
+      header: `Co nabízíme`,
+      offers: [
+        {
+          header: `Firemní / korporátní kurzy`,
+          text: [`Maximální časová flexibilita lektora`,
+          `Lektor je vám k dispozici přímo v prostorách vaší firmy`,
+          `Plán kurzu přizpůsoben konkrétním potřebám klienta`,
+          `Vhodné pro náročné klienty`,
+          `První nezávazná lekce ZDARMA (30 minut)`,
+          `Tvorba individuálního studijního plánu v ceně`,
+          `Začátek kdykoli. Výuka v místě práce klienta.`,
+          `Cena:
+          700 Kč/60 minut (1 osoba),
+          850 Kč/60 minut (2-5 lidí),
+          900 Kč/90 minut (1 osoba),
+          1100 Kč / 90 minut (2-5 lidí)`]
+        },
+        {
+          header: `Individuální kurzy`,
+          text: [`Výuka v prostorách jazykové školy`,
+          `První nezávazná lekce ZDARMA (30 minut)`,
+          `Tvorba individuálního studijního plánu v ceně`,
+          `Začátek kdykoli`,
+          `Cena:
+          500 Kč/60 minut (1 osoba),
+          800 Kč/60 minut (2 osoby)`]
+        },
+        {
+          header: `Skupinové kurzy`,
+          text: [`Cena kurzu 12 lekcí/ 3000 Kč za osobu`,
+          `Počet studenti ve skupině: 5`,
+          `Maximální individuální přístup`]
+        },
+        {
+          header: `Další služby`,
+          text: [`Příprava na certifikované zkoušky z českého jazyka (občanství/ trvalý pobyt):
+          60 minut / 600 Kč (1 osoba)`,
+          `Víkendové lekce: 60 minut / 900 Kč (1-2 osoby), 90 minut/1000 Kč (1-2 osoby)`,
+          `Jazykové konzultace: 45 minut / 400 Kč (1 osoba)`,
+          `Skype lekce: 60 minut / 600 Kč (1 osoba`
+          `Čeština pro Čechy (příprava k maturitě): 60 minut / 500 Kč / 1 osoba`
+          `Jazykové korektury: 30 Kč/ NS`
+          `Taneční lekce českých lidových tanců, individuální lekce pro pár:
+          60 minut / 600 Kč`]
+        },
+      ]
+    },
+    why: {
+      header: `Proč si vybrat právě nás?`,
+      texts: {
+        cup: `Příjemná a pohodová atmosféra při učení, profesionalita a kvalita.`,
+        chat: `Interaktivní, názorná výuka, čeština hrou, netradiční výukové metody - rozvoj kreativity a tvořivosti. Individuální přístup.`,
+        book: `Důraz na rovnoměrný rozvoj čtení, psaní, poslechu i konverzace v každé vyučovací hodině.`,
+        first: `První lekce zcela zdarma - vstupní test a úvodní konverzace, doporučení ohledně volby vhodného kurzu.`,
+        culture: `Specializované lekce: Skype, konverzace, lexikální lekce, příprava na zkoušky, taneční hodiny.`
+      }
+    },
+    partners: `Mezi mé klienty patří firmy jako:`,
+    references: {
+      title: Reference
+    },
+    order: `Objednejte se na 1. lekci ZDARMA`,
+    contacts: {
+      title: `Kontakt`,
+      address: `Adresa jazykové školy: KK Lingua, Ostrovského 253/3, Praha 5, 150 00.`,
+      toGet: `Jak se k nám dostanete? - metro Anděl/ Na Knížecí, 3 minuty od metra - budova Ženské domovy, 5. patro, místnost 5065.`
+    }
+  }
+];

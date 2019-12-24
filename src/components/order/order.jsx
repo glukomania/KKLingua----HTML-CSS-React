@@ -1,11 +1,11 @@
-const Order = () => {
-  return     <div className="container buttonPosition"> 
+const Order = (props) => {
+  return     <div className="buttonPosition"> 
   <a name="objednat"></a> 
       <a href="mailto:info@kklingua.cz">
-        <button type="button" className="buttonOrder btn">
+        <button type="button" className="buttonOrder">
           <i className="fa fa-check-circle">
           </i>
-          &nbsp;&nbsp;&nbsp;Objednejte se na 1. lekci ZDARMA
+          &nbsp;&nbsp;&nbsp;{props.allTexts.order}
         </button>
       </a>
   </div> 

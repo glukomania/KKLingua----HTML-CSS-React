@@ -19,7 +19,7 @@ export const feedbacks = [
 },
 {
  author: `Marina, Ukraine`,
- feedbackText: `Katka is a great teacher!!! She understood what I need, and made a plan according my level and preferences. She is not only a good teacher but a very interesting and optimistic person. I'm always looking forward to have a next lesson with her� I can strongly recommend Katka, not only for beginners but for advanced students as well.`,
+ feedbackText: `Katka is a great teacher!!! She understood what I need, and made a plan according my level and preferences. She is not only a good teacher but a very interesting and optimistic person. I'm always looking forward to have a next lesson with her I can strongly recommend Katka, not only for beginners but for advanced students as well.`,
 },
 {
   author: `Joanna Kalicka, Teva`,

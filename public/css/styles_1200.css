@@ -54,15 +54,26 @@
 
 /* ORDER */
 
-.buttonOrder{
-   width: 600px;
-   height:80px;
-   font-size: 27px !important;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
+.buttonOrder {
+   border: none;
+   padding: 25px 40px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
    border-radius: 5px;
+ }
+
+
+.buttonPosition{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 50px 0 50px 0;
 }
+
+
+/* CONTACTS */
 
 .block-contacts {
    display: flex;
@@ -86,8 +97,4 @@
    height:400px;  
 }
 
-.social_p{
-   font-size: 13px;
-   text-align:center;
-}
 }

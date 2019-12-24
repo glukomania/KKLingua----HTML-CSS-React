@@ -1,8 +1,8 @@
-const Menu = () => {
+const Menu = (props) => {
   return <div className="topnav" id="myTopnav">
   <div className="menu">
-    <a href="#co">Nabídka služeb</a>
-    <a href="#corika">Reference</a>
+    <a href="#co">{props.allTexts.menu.suggest}</a>
+    <a href="#corika">{props.allTexts.menu.feedbacks}</a>
   </div>
   
   <div className="logo">

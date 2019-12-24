@@ -1,9 +1,7 @@
 const Footer = () => {
-  return  <div className="footer container-fluid">
-  <div className="row">
-    <div className="col-md-5"></div>
-    <div className="col-md-3">
-      <p className="social_p">
+  return  <div className="footer">
+  <div className="footer-wrapper">
+    <div className="social_p">
         <a href="https://www.facebook.com/czechwithcatherine/" className="aIcon">
           <i className="fa fa-2x fa-facebook-square socicon"></i>
         </a>
@@ -11,12 +9,15 @@ const Footer = () => {
           <i className="fa fa-2x fa-youtube socicon"></i>
         </a>
 
-        <i className="fa fa-2x fa-instagram socicon"></i>
+        <a href="https://www.instagram.com/kklingua/" className="aIcon">
+            <i className="fa fa-2x fa-instagram socicon"></i>
+        </a>
 
-        <i className="fa fa-2x fa-linkedin socicon"></i>
-      </p>
+        <a href="https://www.linkedin.com/in/kate%C5%99ina-ko%C4%8Dov%C3%A1-525b47a1/" className="aIcon">
+            <i className="fa fa-2x fa-linkedin socicon"></i>
+        </a>
     </div>
-    <div className="col-md-4"></div>
+    <div className="studio"><a href="mailto:shuvaeva@email.cz">FeelStudio</a></div>
   </div>
 </div>
 };
