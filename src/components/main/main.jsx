@@ -6,6 +6,7 @@ import References from '../references/references';
 import Order from '../order/order';
 import Footer from '../footer/footer';
 import Contacts from '../contacts/contacts';
+import Languages from '../languages/languages';
 import {connect} from 'react-redux';
 
 class Main extends React.PureComponent {
@@ -14,10 +15,10 @@ class Main extends React.PureComponent {
   };
 
   render() {
-    console.log(this.props.lang);
+    console.log(this.props.allTexts);
     return <section>
       <Menu allTexts={this.props.allTexts}/>
-      {/* <Languages /> */}
+      <Languages />
 
       <div className="picture">
         <div className="slogan">{this.props.allTexts.title}</div>

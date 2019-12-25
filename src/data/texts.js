@@ -87,7 +87,7 @@ export const allTexts = [
     offersTitles: `Czech language for foreigners`,
     about: {
       header: `Mgr. BcA. Kateřina Kočová`,
-      text: [`Studied om FF UK (department 'Učitelství češtiny jako cizího jazyka').`,
+      text: [`Studied on FF UK (department 'Učitelství češtiny jako cizího jazyka').`,
         `Before that - Literární akademii (department 'Tvůrčí psaní a publicistika se zaměřením na média').`,
         `Teached czech for foreigners in the Integration Center, v Ústavu jazykové a odborné přípravy v Praze, on FF UK, in the International Young Naturefriends, in language school Glossa, in the Metropolitan Univercity and na High School of Economy in Prague.`,
         `My specialization is non-traditional methods of studying, like sugestopedia or using drammatic elements in studying.`,

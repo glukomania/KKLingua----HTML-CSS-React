@@ -8,7 +8,7 @@ const initialState = {
 export const ActionCreator = {
   changeLang: (lang) => ({
     type: `CHANGE_LANG`,
-    PAYLOAD: takeDataByLand(lang),
+    payload: takeDataByLand(lang),
   })
 }
 
