@@ -15,10 +15,9 @@ class Main extends React.PureComponent {
   };
 
   render() {
-    console.log(this.props.allTexts);
     return <section>
       <Menu allTexts={this.props.allTexts}/>
-      <Languages />
+      <Languages lang={this.props.lang}/>
 
       <div className="picture">
         <div className="slogan">{this.props.allTexts.title}</div>

@@ -8,16 +8,16 @@ const Languages = (props) => {
     if (evt.target.innerText === `En`) {
       props.changeLang(`english`);
     } else if (evt.target.innerText === `Rus`) {
-      console.log(`not yet`);
+      props.changeLang(`russian`);
     } else {
       props.changeLang(`czech`);
     }
   }
 
   return <div className="lang" ref={langs} onClick={handleLangsClick}>
-  <a href="#" value="english">En</a>
-  <a href="#">Rus</a>
-  <a href="#">Cz</a>
+  <a href="#" className={props.lang === `english` ? `langActive` : ``}>En</a>
+  <a href="#" className={props.lang === `russian` ? `langActive` : ``}>Rus</a>
+  <a href="#" className={props.lang === `czech` ? `langActive` : ``}>Cz</a>
 </div>
 };
 
@@ -28,7 +28,8 @@ const mapStateToProps = (state, ownProps) => Object.assign({}, ownProps, {
 
 const mapDispatchToProps = (dispatch) => ({
   changeLang: (lang) => {
-    dispatch(ActionCreator.changeLang(lang))
+    dispatch(ActionCreator.changeLang(lang));
+    dispatch(ActionCreator.changeTexts(lang));
   }
 });
 

@@ -27,7 +27,7 @@
 .slogan{
     font-size: 1.5em;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 70px;
     color: #ffffff;
     min-height: 20px;
     
@@ -71,7 +71,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 10px;
+  height: 100px;
   width: 100%;
 }
 

@@ -6,16 +6,23 @@ const initialState = {
 }
 
 export const ActionCreator = {
+  changeTexts: (lang) => ({
+    type: `CHANGE_TEXTS`,
+    payload: takeDataByLand(lang),
+  }),
   changeLang: (lang) => ({
     type: `CHANGE_LANG`,
-    payload: takeDataByLand(lang),
+    payload: lang,
   })
 }
 
 export const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case `CHANGE_LANG`: return Object.assign({}, state, {
+    case `CHANGE_TEXTS`: return Object.assign({}, state, {
       allTexts: action.payload,
+    });
+    case `CHANGE_LANG`: return Object.assign({}, state, {
+      lang: action.payload,
     })
   }
 

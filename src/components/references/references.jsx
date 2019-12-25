@@ -47,7 +47,6 @@ class References extends React.PureComponent {
   }
 
   render() {
-    console.log(`render`);
     let dots = [``, ``, ``, ``, ``, ``, ``, ``]
     return <div className="References">
       <a name="corika"></a>

@@ -89,8 +89,8 @@ export const allTexts = [
       header: `Mgr. BcA. Kateřina Kočová`,
       text: [`Studied on FF UK (department 'Učitelství češtiny jako cizího jazyka').`,
         `Before that - Literární akademii (department 'Tvůrčí psaní a publicistika se zaměřením na média').`,
-        `Teached czech for foreigners in the Integration Center, v Ústavu jazykové a odborné přípravy v Praze, on FF UK, in the International Young Naturefriends, in language school Glossa, in the Metropolitan Univercity and na High School of Economy in Prague.`,
-        `My specialization is non-traditional methods of studying, like sugestopedia or using drammatic elements in studying.`,
+        `Teached czech for foreigners in the Integration Center, in Ústavu jazykové a odborné přípravy v Praze, on FF UK, in the International Young Naturefriends, in language school Glossa, in the Metropolitan Univercity and na High School of Economy in Prague.`,
+        `My specialization is non-traditional methods of studying, like suggestopedia or using drammatic elements in studying.`,
         `In my free time I like dancing, sport and travels, art and culture.`,
         `In 2014 I've founded a little language school in Prague: KK Lingua. Now I'm teaching individually, in groups and in companies, I prepare my clients to the Czech language certification, making fokus on the conversational skills and lexic extention. More information about KK Lingua is on Facebook.`]
     },
@@ -144,7 +144,7 @@ export const allTexts = [
       header: `Why choose us?`,
       texts: {
         cup: `Pleasant and relaxed learning atmosphere, professionalism and quality.`,
-        chat: `Interactive, illustrative teaching, Czech in game, non-traditional teaching methods - development of creativity and creativity. Individual approach.`,
+        chat: `Interactive, illustrative teaching, Czech in game, non-traditional teaching methods - development of creativity and individual approach.`,
         book: `Emphasis on balanced development of reading, writing, listening and conversation in every lesson.`,
         first: `First lesson completely free - entrance test and introductory conversation, recommendations for choosing the appropriate course.`,
         culture: `Specialized lessons: Skype, conversation, lexical lessons, exam preparation, dance lessons.`
@@ -159,6 +159,87 @@ export const allTexts = [
       title: `Contacts`,
       address: `The address of the school: KK Lingua, Ostrovského 253/3, Praha 5, 150 00.`,
       toGet: `How to get? - metro Anděl/ Na Knížecí, 3 minutes from metro - building Ženské domovy, 5th floor, room 5065.`
+    }
+  },
+  {
+    language: `russian`,
+    menu: {about: `О нас`, suggest: `Предложения`, why: `Почему мы?`, feedbacks: `Отзывы студентов`},
+    title: `Катержина Кочова`,
+    offersTitles: `Чешский для иностранцев`,
+    about: {
+      header: `Mgr. BcA. Катержина Кочова`,
+      text: [`Училась в FF UK (отделение 'Učitelství češtiny jako cizího jazyka').`,
+        `До этого - Литературная академия (отделение 'Tvůrčí psaní a publicistika se zaměřením na média').`,
+        `преподавала чешский в Интеграционном центре, в Институте языка и педагогики в Праге, на FF UK, в International Young Naturefriends, в языковой школе Glossa, в Metropolitan Univercity и в Высшей Школе Экономики в Праге.`,
+        `Специализируюсь на нетрадиционных методах обучения, как например суггестопедия или использование театральных элементов в обучении.`,
+        `В свободное время я люблю танцевать, заниматься спортом и путешествовать, искусство и культуру.`,
+        `В 2014 я основала маленькую языковую школу в Праге: KK Lingua. Сейчас я даю индивидуальные уроки, групповые курсы в компаниях, а также готовлю клиентов к сдаче сертификации на знаение чешского языка, уделяя особое внимание разговорным навыкам и расширению лекцикона. Больше информации о KK Lingua можно найти на Facebook.`]
+    },
+    offers: {
+      header: `Что мы предлагаем`,
+      offers: [
+        {
+          header: `Корпоративные курсы`,
+          text: [`Максимальная гибкость по времени`,
+          `Преподавание прямо в вашем офисе`,
+          `План обучения основан на ваших пожеланиях`,
+          `Подходит самым взыскательным клиентам`,
+          `Первый урок - бесплатно (30 минут)`,
+          `Создание индивидуального плана обучения`,
+          `Начнём в любое время.`,
+          `Цена:
+          700 Kč/60 минут (1 человек),
+          850 Kč/60 минут (2-5 людей),
+          900 Kč/90 минут (1 человек),
+          1100 Kč / 90 минут (2-5 людей)`]
+        },
+        {
+          header: `Индивидуальные курсы`,
+          text: [`Преподавание в офисе языковой школы`,
+          `Первый урок - бесплатно (30 минут)`,
+          `Создание индивидуального плана обучения`,
+          `Начнём в любое время.`,
+          `Цена:
+          500 Kč/60 минут (1 человек),
+          800 Kč/60 минут (2 человека)`]
+        },
+        {
+          header: `Групповые курсы`,
+          text: [`Цена за 12 занятий: 3000 Kč за человека`,
+          `Число студентов в группе: 5`,
+          `Максимально индивидуальный подход`]
+        },
+        {
+          header: `Другие предложения`,
+          text: [`Подготовка к сертификационному экзамену (гражданство / пмж): 60 минут / 600 Kč (1 человек)`,
+          `Занятия в выходные: 60 минут / 900 Kč (1-2 человек), 90 минут / 1000 Kč (1-2 человек)`,
+          `Языковая консультация: 45 минут / 400 Kč (1 человек)`,
+          `Skype-уроки: 60 минут / 600 Kč (1 человек)`,
+          `Чешский для чехов (подготовка к защите диссертации): 60 минут / 500 Kč / 1 человек`,
+          `Языковая коррекция: 30 Kč/ NS`,
+          `Уроки чешских народных танцев, индивидуальные уроки для пар: 60 минут / 600 Kč`]
+        },
+      ]
+    },
+    why: {
+      header: `Почему мы?`,
+      texts: {
+        cup: `Приятная и расслабленная атмосфера обучения, профессионализм и качество.`,
+        chat: `Интерактивное и иллюстративное обучение, "чешский играючи", нетрадиционные методы преподавания - творческий и индивидуальный подход.`,
+        book: `Упор на сбалансированном развитии языковых навыков - чтения, письма, слушания и разговора, - в каждом уроке`,
+        first: `Первое занятие абсолютно бесплатно - входной тест и вводный разговор, рекомендации по выбору подходящего курса.`,
+        culture: `Специализированные уроки: Skype, разговорные, лексические, подготовка к экзамену, уроки танцев.`
+      }
+    },
+    partners: `Среди моих клиентов:`,
+    references: {
+      title: `Отзывы моих студентов`,
+    },
+    order: `Заказать первое занятие БЕСПЛАТНО`,
+    contacts: {
+      title: `Контакты`,
+      address: `Адрес школы: KK Lingua, Ostrovského 253/3, Praha 5, 150 00.`,
+      toGet: `Как добраться? - метро Anděl/ Na Knížecí, 3 минуты от метро - здание Ženské domovy, 5 этаж, комната 5065.`
     }
   }
 ];
