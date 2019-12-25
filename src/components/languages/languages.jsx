@@ -1,5 +1,6 @@
 import {connect} from 'react-redux';
-import { ActionCreator } from '../../store/reducers';
+import {ActionCreator} from '../../store/reducers';
+import {Link} from 'react-router-dom';
 
 const Languages = (props) => {
   const langs = React.createRef();
@@ -15,9 +16,9 @@ const Languages = (props) => {
   }
 
   return <div className="lang" ref={langs} onClick={handleLangsClick}>
-  <a href="#" className={props.lang === `english` ? `langActive` : ``}>En</a>
-  <a href="#" className={props.lang === `russian` ? `langActive` : ``}>Rus</a>
-  <a href="#" className={props.lang === `czech` ? `langActive` : ``}>Cz</a>
+  <Link to="/en" className={props.lang === `english` ? `langActive` : ``}>En</Link>
+  <Link to="/ru" className={props.lang === `russian` ? `langActive` : ``}>Rus</Link>
+  <Link to="/cz" className={props.lang === `czech` ? `langActive` : ``}>Cz</Link>
 </div>
 };
 

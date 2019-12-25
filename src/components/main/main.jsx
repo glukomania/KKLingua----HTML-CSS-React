@@ -54,7 +54,6 @@ class Main extends React.PureComponent {
 };
 
 const mapStateToDispatch = (state, ownProps) => Object.assign({}, ownProps, {
-  lang: state.lang,
   allTexts: state.allTexts,
 });
 
