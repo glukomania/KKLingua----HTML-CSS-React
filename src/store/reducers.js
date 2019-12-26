@@ -2,7 +2,7 @@ import {takeDataByLand} from './actions';
 
 const initialState = {
   lang: `czech`,
-  allTexts: takeDataByLand(`english`),
+  allTexts: takeDataByLand(`czech`),
 }
 
 export const ActionCreator = {
