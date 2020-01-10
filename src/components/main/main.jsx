@@ -12,26 +12,32 @@ import {connect} from 'react-redux';
 class Main extends React.PureComponent {
   constructor(props) {
     super(props);
+    console.log(props.lang);
+    
   };
 
   render() {
+    let allTexts = this.props.initialTexts;
+    if (!allTexts) {
+      allTexts = this.props.allTexts;
+    }
     return <section>
-      <Menu allTexts={this.props.allTexts}/>
+      <Menu allTexts={allTexts}/>
       <Languages lang={this.props.lang}/>
 
       <div className="picture">
-        <div className="slogan">{this.props.allTexts.title}</div>
-        <div className="headoffer">{this.props.allTexts.offersTitles}</div>
+        <div className="slogan">{allTexts.title}</div>
+        <div className="headoffer">{allTexts.offersTitles}</div>
       </div> 
 
-      <About allTexts={this.props.allTexts}/>
+      <About allTexts={allTexts}/>
 
-      <Offers allTexts={this.props.allTexts}/>
+      <Offers allTexts={allTexts}/>
 
-      <Why allTexts={this.props.allTexts}/>
+      <Why allTexts={allTexts}/>
     
       <div className="partners">
-        <p className="title">{this.props.allTexts.partners}</p>
+        <p className="title">{allTexts.partners}</p>
         <img className="imgPartners" src="img/partners.png" />
       </div>
                    
@@ -42,11 +48,11 @@ class Main extends React.PureComponent {
           <hr className="orangeHr" />
       </div> 
         
-      <References allTexts={this.props.allTexts}/>
+      <References allTexts={allTexts}/>
 
-      <Order allTexts={this.props.allTexts}/>  
+      <Order allTexts={allTexts}/>  
 
-      <Contacts allTexts={this.props.allTexts}/>
+      <Contacts allTexts={allTexts}/>
 
       <Footer/> 
     </section>

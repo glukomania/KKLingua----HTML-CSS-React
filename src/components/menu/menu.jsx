@@ -1,8 +1,10 @@
+import { Link } from "react-scroll";
+
 const Menu = (props) => {
   return <div className="topnav" id="myTopnav">
   <div className="menu">
-    <a href="#co">{props.allTexts.menu.suggest}</a>
-    <a href="#corika">{props.allTexts.menu.feedbacks}</a>
+    <Link to="co">{props.allTexts.menu.suggest}</Link>
+    <Link to="corika">{props.allTexts.menu.feedbacks}</Link>
   </div>
   
   <div className="logo">
