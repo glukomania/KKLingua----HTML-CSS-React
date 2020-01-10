@@ -350,6 +350,7 @@ hr {
 }
 
 
+
 /* BUTTON + FOOTER */
 
 .buttonOrder {
@@ -398,6 +399,11 @@ hr {
 .map{
     width:50%;
     height:400px;
+}
+
+.map_picture {
+    width: 100%;
+    object-fit: cover;
 }
 
 .contacts-text{
